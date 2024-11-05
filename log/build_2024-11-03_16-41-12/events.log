@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000395] (D435i) JobQueued: {'identifier': 'D435i', 'dependencies': OrderedDict()}
+[0.000512] (D435i) JobStarted: {'identifier': 'D435i'}
+[0.099849] (-) TimerEvent: {}
+[0.192997] (D435i) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 87, in build\n    create_file(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 274, in create_file\n    with open(dst, \'w\') as h:\nFileNotFoundError: [Errno 2] No such file or directory: \'/home/ors/ros2_ws/install/D435i/share/ament_index/resource_index/packages/D435i\'\n'}
+[0.193514] (D435i) JobEnded: {'identifier': 'D435i', 'rc': 1}
+[0.199922] (-) TimerEvent: {}
+[0.203405] (-) EventReactorShutdown: {}
