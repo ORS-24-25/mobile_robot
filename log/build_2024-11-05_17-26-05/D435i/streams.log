@@ -1,0 +1,36 @@
+[0.508s] Invoking command in '/home/ors/ros2_ws/build/D435i': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ors/ros2_ws/build/D435i/build
+[0.681s] running develop
+[0.689s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.689s]   warnings.warn(
+[0.799s] Removing /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i.egg-link (link to .)
+[0.819s] Invoked command in '/home/ors/ros2_ws/build/D435i' returned '0': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ors/ros2_ws/build/D435i/build
+[0.820s] Invoking command in '/home/ors/ros2_ws/src/D435i': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/D435i build --build-base /home/ors/ros2_ws/build/D435i/build install --record /home/ors/ros2_ws/build/D435i/install.log --single-version-externally-managed install_data --force
+[0.979s] running egg_info
+[0.979s] writing ../../build/D435i/D435i.egg-info/PKG-INFO
+[0.979s] writing dependency_links to ../../build/D435i/D435i.egg-info/dependency_links.txt
+[0.980s] writing entry points to ../../build/D435i/D435i.egg-info/entry_points.txt
+[0.980s] writing requirements to ../../build/D435i/D435i.egg-info/requires.txt
+[0.980s] writing top-level names to ../../build/D435i/D435i.egg-info/top_level.txt
+[0.981s] reading manifest file '../../build/D435i/D435i.egg-info/SOURCES.txt'
+[0.981s] writing manifest file '../../build/D435i/D435i.egg-info/SOURCES.txt'
+[0.981s] running build
+[0.982s] running build_py
+[0.982s] creating /home/ors/ros2_ws/build/D435i/build
+[0.982s] creating /home/ors/ros2_ws/build/D435i/build/lib
+[0.982s] creating /home/ors/ros2_ws/build/D435i/build/lib/D435i
+[0.982s] copying D435i/__init__.py -> /home/ors/ros2_ws/build/D435i/build/lib/D435i
+[0.982s] running install
+[0.982s] running install_lib
+[0.982s] creating /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i
+[0.983s] copying /home/ors/ros2_ws/build/D435i/build/lib/D435i/__init__.py -> /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i
+[0.983s] byte-compiling /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i/__init__.py to __init__.cpython-310.pyc
+[0.983s] running install_data
+[0.983s] copying resource/D435i -> /home/ors/ros2_ws/install/D435i/share/ament_index/resource_index/packages
+[0.983s] copying package.xml -> /home/ors/ros2_ws/install/D435i/share/D435i
+[0.983s] copying D435i/launch/d435i.launch.py -> /home/ors/ros2_ws/install/D435i/share/D435i/launch/
+[0.983s] copying D435i/urdf/test_frame.urdf -> /home/ors/ros2_ws/install/D435i/share/D435i/urdf/
+[0.983s] running install_egg_info
+[0.985s] Copying ../../build/D435i/D435i.egg-info to /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i-0.0.0-py3.10.egg-info
+[0.985s] running install_scripts
+[1.000s] writing list of installed files to '/home/ors/ros2_ws/build/D435i/install.log'
+[1.015s] Invoked command in '/home/ors/ros2_ws/src/D435i' returned '0': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/D435i build --build-base /home/ors/ros2_ws/build/D435i/build install --record /home/ors/ros2_ws/build/D435i/install.log --single-version-externally-managed install_data --force

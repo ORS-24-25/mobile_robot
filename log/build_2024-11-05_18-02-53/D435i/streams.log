@@ -1,0 +1,33 @@
+[0.470s] Invoking command in '/home/ors/ros2_ws/build/D435i': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ors/ros2_ws/build/D435i/build
+[0.659s] running develop
+[0.659s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.659s]   warnings.warn(
+[0.783s] Removing /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i.egg-link (link to .)
+[0.805s] Invoked command in '/home/ors/ros2_ws/build/D435i' returned '0': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ors/ros2_ws/build/D435i/build
+[0.807s] Invoking command in '/home/ors/ros2_ws/src/D435i': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/D435i build --build-base /home/ors/ros2_ws/build/D435i/build install --record /home/ors/ros2_ws/build/D435i/install.log --single-version-externally-managed install_data --force
+[0.985s] running egg_info
+[0.986s] writing ../../build/D435i/D435i.egg-info/PKG-INFO
+[0.986s] writing dependency_links to ../../build/D435i/D435i.egg-info/dependency_links.txt
+[0.986s] writing entry points to ../../build/D435i/D435i.egg-info/entry_points.txt
+[0.986s] writing requirements to ../../build/D435i/D435i.egg-info/requires.txt
+[0.986s] writing top-level names to ../../build/D435i/D435i.egg-info/top_level.txt
+[0.987s] reading manifest file '../../build/D435i/D435i.egg-info/SOURCES.txt'
+[0.988s] writing manifest file '../../build/D435i/D435i.egg-info/SOURCES.txt'
+[0.988s] running build
+[0.988s] running build_py
+[0.988s] running install
+[0.989s] running install_lib
+[0.989s] creating /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i
+[0.989s] copying /home/ors/ros2_ws/build/D435i/build/lib/D435i/__init__.py -> /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i
+[0.989s] byte-compiling /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i/__init__.py to __init__.cpython-310.pyc
+[0.990s] running install_data
+[0.990s] copying resource/D435i -> /home/ors/ros2_ws/install/D435i/share/ament_index/resource_index/packages
+[0.990s] copying package.xml -> /home/ors/ros2_ws/install/D435i/share/D435i
+[0.990s] copying D435i/launch/d435i.launch.py -> /home/ors/ros2_ws/install/D435i/share/D435i/launch/
+[0.990s] copying D435i/urdf/test_frame.urdf.xacro -> /home/ors/ros2_ws/install/D435i/share/D435i/urdf/
+[0.990s] copying D435i/urdf/basic_robot.xacro -> /home/ors/ros2_ws/install/D435i/share/D435i/urdf/
+[0.990s] running install_egg_info
+[0.992s] Copying ../../build/D435i/D435i.egg-info to /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i-0.0.0-py3.10.egg-info
+[0.992s] running install_scripts
+[1.008s] writing list of installed files to '/home/ors/ros2_ws/build/D435i/install.log'
+[1.031s] Invoked command in '/home/ors/ros2_ws/src/D435i' returned '0': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/D435i build --build-base /home/ors/ros2_ws/build/D435i/build install --record /home/ors/ros2_ws/build/D435i/install.log --single-version-externally-managed install_data --force

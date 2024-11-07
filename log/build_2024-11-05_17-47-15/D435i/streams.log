@@ -1,0 +1,22 @@
+[0.457s] Invoking command in '/home/ors/ros2_ws/build/D435i': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ors/ros2_ws/build/D435i/build --no-deps symlink_data --force
+[0.651s] running develop
+[0.651s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.651s]   warnings.warn(
+[0.772s] running egg_info
+[0.772s] writing D435i.egg-info/PKG-INFO
+[0.772s] writing dependency_links to D435i.egg-info/dependency_links.txt
+[0.772s] writing entry points to D435i.egg-info/entry_points.txt
+[0.772s] writing requirements to D435i.egg-info/requires.txt
+[0.773s] writing top-level names to D435i.egg-info/top_level.txt
+[0.774s] reading manifest file 'D435i.egg-info/SOURCES.txt'
+[0.775s] writing manifest file 'D435i.egg-info/SOURCES.txt'
+[0.776s] running build_ext
+[0.776s] Creating /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i.egg-link (link to .)
+[0.777s] 
+[0.777s] Installed /home/ors/ros2_ws/build/D435i
+[0.777s] running symlink_data
+[0.777s] symbolically linking /home/ors/ros2_ws/build/D435i/resource/D435i -> /home/ors/ros2_ws/install/D435i/share/ament_index/resource_index/packages
+[0.777s] symbolically linking /home/ors/ros2_ws/build/D435i/package.xml -> /home/ors/ros2_ws/install/D435i/share/D435i
+[0.777s] symbolically linking /home/ors/ros2_ws/build/D435i/D435i/launch/d435i.launch.py -> /home/ors/ros2_ws/install/D435i/share/D435i/launch/
+[0.777s] symbolically linking /home/ors/ros2_ws/build/D435i/D435i/urdf/test_frame.urdf -> /home/ors/ros2_ws/install/D435i/share/D435i/urdf/
+[0.799s] Invoked command in '/home/ors/ros2_ws/build/D435i' returned '0': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ors/ros2_ws/build/D435i/build --no-deps symlink_data --force

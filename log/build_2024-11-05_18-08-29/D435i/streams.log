@@ -1,0 +1,18 @@
+[0.468s] Invoking command in '/home/ors/ros2_ws/src/D435i': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/D435i build --build-base /home/ors/ros2_ws/build/D435i/build install --record /home/ors/ros2_ws/build/D435i/install.log --single-version-externally-managed install_data
+[0.642s] running egg_info
+[0.642s] writing ../../build/D435i/D435i.egg-info/PKG-INFO
+[0.643s] writing dependency_links to ../../build/D435i/D435i.egg-info/dependency_links.txt
+[0.643s] writing entry points to ../../build/D435i/D435i.egg-info/entry_points.txt
+[0.643s] writing requirements to ../../build/D435i/D435i.egg-info/requires.txt
+[0.643s] writing top-level names to ../../build/D435i/D435i.egg-info/top_level.txt
+[0.644s] reading manifest file '../../build/D435i/D435i.egg-info/SOURCES.txt'
+[0.645s] writing manifest file '../../build/D435i/D435i.egg-info/SOURCES.txt'
+[0.645s] running build
+[0.645s] running build_py
+[0.645s] running install
+[0.645s] running install_lib
+[0.646s] running install_data
+[0.646s] copying D435i/launch/d435i.launch.py -> /home/ors/ros2_ws/install/D435i/share/D435i/launch/
+[0.646s] copying D435i/urdf/test_frame.urdf.xacro -> /home/ors/ros2_ws/install/D435i/share/D435i/urdf/
+[0.646s] error: can't copy 'D435i/urdf/basic_robot.xacro': doesn't exist or not a regular file
+[0.661s] Invoked command in '/home/ors/ros2_ws/src/D435i' returned '1': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/D435i build --build-base /home/ors/ros2_ws/build/D435i/build install --record /home/ors/ros2_ws/build/D435i/install.log --single-version-externally-managed install_data

@@ -1,0 +1,19 @@
+[0.460s] Invoking command in '/home/ors/ros2_ws/build/D435i': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ors/ros2_ws/build/D435i/build --no-deps symlink_data
+[0.651s] running develop
+[0.651s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.651s]   warnings.warn(
+[0.776s] running egg_info
+[0.776s] writing D435i.egg-info/PKG-INFO
+[0.777s] writing dependency_links to D435i.egg-info/dependency_links.txt
+[0.777s] writing entry points to D435i.egg-info/entry_points.txt
+[0.777s] writing requirements to D435i.egg-info/requires.txt
+[0.777s] writing top-level names to D435i.egg-info/top_level.txt
+[0.778s] reading manifest file 'D435i.egg-info/SOURCES.txt'
+[0.779s] writing manifest file 'D435i.egg-info/SOURCES.txt'
+[0.780s] running build_ext
+[0.780s] Creating /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i.egg-link (link to .)
+[0.781s] 
+[0.781s] Installed /home/ors/ros2_ws/build/D435i
+[0.781s] running symlink_data
+[0.781s] error: can't copy '/home/ors/ros2_ws/build/D435i/D435i/urdf/test_frame.urdf': doesn't exist or not a regular file
+[0.803s] Invoked command in '/home/ors/ros2_ws/build/D435i' returned '1': PYTHONPATH=/home/ors/ros2_ws/build/D435i/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ors/ros2_ws/build/D435i/build --no-deps symlink_data
