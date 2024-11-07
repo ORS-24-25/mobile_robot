@@ -1,9 +1,6 @@
 <?xml version="1.0"?>
 <robot name="test_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <!-- Declare arguments for frame names -->
-  <xacro:arg name="camera_name" default="camera_link"/>
-
   <!-- ===================================================
        Robot Base Link Definition
        =================================================== -->
@@ -42,7 +39,7 @@
        Camera Link Definition
        =================================================== -->
   <!-- <link name="${camera_frame}"> -->
-  <link name="{$camera_name}">
+  <link name="depthcam_link">
     <!-- Visual representation -->
     <visual>
       <geometry>
@@ -79,8 +76,8 @@
   <joint name="camera_mount_joint" type="fixed">
     <parent link="base_link"/>
     <!-- <child link="${camera_frame}"/> -->
-    <child link="robot_link"/> 
-    <origin xyz="0 0 0.15" rpy="0 0 0"/>
+    <child link="depthcam_link"/> 
+    <origin xyz="0 0 0.85" rpy="0 0 0"/>
   </joint>
 
 </robot>

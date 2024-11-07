@@ -1,20 +1,16 @@
 import os
-import xacro
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
-from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration
-from launch.substitutions import Command
-from launch.substitutions import FindExecutable
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
-import xacro
 
 def generate_launch_description():
     # Creating launch argument for Frame ID to associate depth camera data
+    # SET frame_id IN THE LAUNCH ARGUMENTS (Note: this will be formatted as <your_frame_id>_link)
     frame_id_arg = DeclareLaunchArgument(
         'frame_id',
-        default_value='camera',
+        default_value='camera', # In this case, RealSense will name the camera frames as camera_link ,etc.
         description='Frame ID to associate with the depth camera'
     )
 
@@ -29,44 +25,12 @@ def generate_launch_description():
     realsense_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(realsense_launch_file),
         launch_arguments={
-            #'base_frame_id': LaunchConfiguration('frame_id'),
-            # 'depth_frame_id': LaunchConfiguration('frame_id')
-            'camera_name': LaunchConfiguration('frame_id')
+            'camera_name': LaunchConfiguration('frame_id'),
+            'pointcloud.enable': 'true'
         }.items()
     )
-
-
-    # Process xacro file
-    pkg_name = 'D435i'
-    file_subpath = 'urdf/test_frame.urdf.xacro'
-    xacro_file = os.path.join(get_package_share_directory(pkg_name), file_subpath)
-    #robot_description_raw = xacro.process_file(xacro_file).toxml()
-    robot_description_raw = Command([FindExecutable(name='xacro'), ' ', xacro_file, ' ', 'camera_name:=', LaunchConfiguration('')])
-
-    # Configure the node 
-    node_robot_state_publisher = Node(
-        package='robot_state_publisher',
-        executable='robot_state_publisher',
-        name="robot_state_publisher",
-        output='screen',
-        parameters=[{'robot_description': robot_description_raw,
-         'use_sim_time':True}]
-    )
-
-    gazebo = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([os.path.join(
-            get_package_share_directory('gazebo_ros'), 'launch'), '/gazebo.launch.py']),
-    )
-
-    spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
-        arguments=['-topic', 'robot_description',
-                    '-entity', 'my_bot'],
-        output='screen')
 
     return LaunchDescription([
         frame_id_arg,
         realsense_launch,
-        node_robot_state_publisher,
-        gazebo,
-        spawn_entity
     ])
