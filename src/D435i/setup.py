@@ -11,7 +11,6 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch/', ['D435i/launch/d435i.launch.py']),
-        ('share/' + package_name + '/urdf/', ['D435i/urdf/test_frame.urdf'])
     ],
     install_requires=['setuptools'],
     zip_safe=True,

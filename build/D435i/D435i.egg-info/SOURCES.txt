@@ -1,6 +1,13 @@
 package.xml
 setup.cfg
 setup.py
+../../build/D435i/D435i.egg-info/PKG-INFO
+../../build/D435i/D435i.egg-info/SOURCES.txt
+../../build/D435i/D435i.egg-info/dependency_links.txt
+../../build/D435i/D435i.egg-info/entry_points.txt
+../../build/D435i/D435i.egg-info/requires.txt
+../../build/D435i/D435i.egg-info/top_level.txt
+../../build/D435i/D435i.egg-info/zip-safe
 D435i/__init__.py
 D435i.egg-info/PKG-INFO
 D435i.egg-info/SOURCES.txt
@@ -11,5 +18,5 @@ D435i.egg-info/top_level.txt
 D435i.egg-info/zip-safe
 D435i/launch/d435i.launch.py
 D435i/launch/view_model.launch.py
-D435i/urdf/test_frame.urdf
+D435i/urdf/test_frame.urdf.xacro
 resource/D435i

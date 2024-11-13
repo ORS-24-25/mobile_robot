@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing D435i.egg-info/PKG-INFO
+writing dependency_links to D435i.egg-info/dependency_links.txt
+writing entry points to D435i.egg-info/entry_points.txt
+writing requirements to D435i.egg-info/requires.txt
+writing top-level names to D435i.egg-info/top_level.txt
+reading manifest file 'D435i.egg-info/SOURCES.txt'
+writing manifest file 'D435i.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ors/ros2_ws/install/D435i/lib/python3.10/site-packages/D435i.egg-link (link to .)
+
+Installed /home/ors/ros2_ws/build/D435i
+running symlink_data
+symbolically linking /home/ors/ros2_ws/build/D435i/resource/D435i -> /home/ors/ros2_ws/install/D435i/share/ament_index/resource_index/packages
+symbolically linking /home/ors/ros2_ws/build/D435i/package.xml -> /home/ors/ros2_ws/install/D435i/share/D435i
+symbolically linking /home/ors/ros2_ws/build/D435i/D435i/launch/d435i.launch.py -> /home/ors/ros2_ws/install/D435i/share/D435i/launch/
+symbolically linking /home/ors/ros2_ws/build/D435i/D435i/urdf/test_frame.urdf.xacro -> /home/ors/ros2_ws/install/D435i/share/D435i/urdf/
